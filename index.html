@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css" />
+    <link href="css/nouislider.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <title>CyberFox</title>
+</head>
+
+<body>
+    <span class="mobTitle">Filter</span>
+    <div class="container">
+        <div class="filter">
+            <span>Filter</span>
+            <hr>
+            <div class="mobProdLine">
+                <div class="prodButtons">
+                    <button>All products</button>
+                    <button>Bookcase</button>
+                    <button>Wardrobes</button>
+                </div>
+                <hr>
+            </div>
+            <div class="price">
+                <h2>Price</h2>
+                <div class="slider .noUi-connect" id="slider-range"></div>
+                <span id="priceCost">100$</span>
+            </div>
+            <hr>
+            <div class="width">
+                <h2>Width</h2>
+                <div class="widthInput">
+                    <div class="dotsTop">
+                        <div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </div>
+                    <div class="slider" id="slider-snap"></div>
+                    <div class="dotsBottom">
+                        <div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </div>
+                    <div class="inputVars">
+                        <span>
+                            <span id="startWidth">30</span>
+                             cm
+                        </span>
+                        <span>
+                            <span id="endWidth">1000</span>
+                             cm
+                        </span>
+                    </div>
+                    <div class="inputSize"><span id="size">0 cm</span></div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="prodLine">
+            <h2>PRODUCT LINE</h2>
+            <div class="prodButtons">
+                <button>All products</button>
+                <button>Bookcase</button>
+                <button>Wardrobes</button>
+            </div>
+        </div>
+        <hr>
+        <div class="features">
+            <h2>FEATURES</h2>
+            <div class="featuresBtns">
+                <button class="btn">All products</button>
+                <button class="btn">Bookcase</button>
+            </div>
+            <div class="pdfSave">
+                <button><a href="#" target="_blank" download>Save pdf</a></button>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <span>customize your version</span>
+    </div>
+    <div class="open">
+        <span>OPEN MODAL</span>
+    </div>
+    <div class="modal">
+        <div class="close"><span>x</span></div>
+        <div class="cart">
+            <div class="cartCont">
+                <img src="./static/1001.jpg" alt="box" />
+                <img src="./static/Filter.png" alt="filter" />
+            </div>
+            <div class="cartText">
+                <div class="cartDesc">
+                    <span>type 01</span>
+                    <h2>Bookcase</h2>
+                </div>
+                <div class="cartPrice">
+                    <button>1 990 $</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/nouislider.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
