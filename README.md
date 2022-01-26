@@ -1,6 +1,6 @@
 # testCF
 
-- inputs with handles was creating with **noUiSlider**. Values are displayed using noUiSlider.get() method;
+- inputs with handles was creating with **noUiSlider**. Values are displayed using **noUiSlider.get() method**;
 - Using JS scripts to chenging styles of buttons to active, when it`s pressed, and disactive, when pressed another;
 - All styles writed with SCSS;
 - Added modal window for displaying **cart**;
